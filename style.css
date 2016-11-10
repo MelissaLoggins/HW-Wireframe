@@ -1,6 +1,8 @@
 * {
 	box-sizing: border-box;
 	text-align: center;
+	margin-right: 40px;
+	margin-left: 40px;
 }
 
 body {
@@ -10,65 +12,83 @@ body {
 	background-color: #888;
 }
 
-header {
-	background: #fff;
-	padding: 20px;
-	margin: 5px 30px 5px 120px;
-	color: #999;
-	width: 80%;
-
-}
-
-nav {
-	background: #fff;
-	padding: 20px;
-	margin: 5px 30px 5px 120px;
-	color: #999;
-	width: 80%;
-
-}
-
-section {
-	border: 1px solid #eee; /*DEBUG*/
-	float: left;
-	margin: 0 1.5%;
-	width: 45%;
-	background: #fff;
-	height: 200px;
-	margin: 20px 20px 20px 80px;
-	padding: 20px;
-}
-
-#full {
+.header-container {
 	background-color: white;
-	color: #999;
-	width: 50%;
-	margin: 0;
-	float: left;
-	position: absolute;
-	border: 1px solid blue; /*DEBUG*/
-}
-
-#within {
-	background-color: #888;
-	color: white;
-	margin: 20px 10px 10px 20px;
-	width: 45%;
-}
-
-aside {
-	float: right;
-	margin: 0 1.5%;
-	width: 33%;
+	margin: 10px 120px 10px 120px;
 	padding-top: 20px;
-	background: #fff;
-	margin-bottom: 20px;
-	margin-left: 6px;
-	height: 200px;
+	padding-bottom: 20px;
+
+}
+	
+.nav-container {
+	background-color: white;
+	margin: 10px 120px 20px 120px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
-footer {
-	clear: both;
-	background: #fff;
-	overflow: auto;
+.section-container {
+	background-color: white;
+	box-sizing: border-box;
+	padding-top: 20px;
+	width: 45%;
+	margin-right: 10px;
+	margin-left: 120px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	height: 300px;
+	float: left;
 }
+
+.article-container {
+	background-color: #888;
+	margin: 15px 10px 10px 10px;
+	height: 225px;
+}
+
+.h-container {
+	background-color: white;
+	height: 85px;
+	margin-bottom: 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 25px;
+}
+
+.p-container {
+	background-color: white;
+	height: 85px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	padding-top: 25px;
+}
+
+.aside-container {
+	background-color: white;
+	padding-top: 20px;
+	width: 355px;
+	height: 300px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.footer-container {
+	clear: both;
+	overflow: auto;
+	background-color: white;
+	margin-right: 120px;
+	margin-left: 120px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
